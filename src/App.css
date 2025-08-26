@@ -1,0 +1,46 @@
+#root {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#map-container {
+  height: 100%;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.sidebar {
+  background-color: rgb(35 55 75 / 90%);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  border-radius: 4px;
+}
+
+.layout-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.portal-content {
+  background-color: #111111;
+  width: 100%;
+  height: 100%;
+}
+
+.mapboxgl-popup-content {
+  background-color: #111111 !important;
+}
+
+.mapboxgl-popup-tip {
+  border-top-color: #111111 !important;
+  border-bottom-color: #111111 !important;
+}
