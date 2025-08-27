@@ -1,7 +1,7 @@
 import mapboxgl from "mapbox-gl";
 import { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
-import DroneSvg from '../assets/Icon/drone.svg';
+import DroneSvg from '../../../assets/Icon/drone.svg';
 import styled from "@emotion/styled";
 
 const MarkerCircle = styled.div`

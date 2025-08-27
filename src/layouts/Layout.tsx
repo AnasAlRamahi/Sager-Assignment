@@ -1,6 +1,6 @@
 import { DashboardLayout } from "@toolpad/core";
 import { Outlet } from "react-router";
-import ToolbarActions from "../components/ToolbarActions";
+import ToolbarActions from "./ToolbarActions";
 
 const Layout = () => {
   return (

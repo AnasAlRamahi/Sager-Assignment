@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import { Card, CardHeader, type CardHeaderProps, type CardProps } from "@mui/material";
-import { SmallGreyText } from "./shared/StyledComponents";
+import { SmallGreyText } from "../../shared/StyledComponents";
 
 const CustomizedCard = styled(Card)<CardProps>(({ theme }: { theme: any }) => ({
   backgroundColor: '#111111',

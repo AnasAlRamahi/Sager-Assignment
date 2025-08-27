@@ -2,7 +2,7 @@ import styled from '@emotion/styled'
 import mapboxgl from 'mapbox-gl'
 import { useEffect, useRef } from "react"
 import { createPortal } from "react-dom"
-import { SmallGreyText } from './shared/StyledComponents'
+import { SmallGreyText } from '../../shared/StyledComponents'
 
 const PopUpContainer = styled.div`
   background-color: #111111;

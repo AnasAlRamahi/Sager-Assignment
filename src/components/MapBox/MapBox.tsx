@@ -1,9 +1,9 @@
-import { useDroneContext } from '../context/DronesContext';
-import DronesList from './DronesList';
-import MapBoxCounter from './MapBoxCounter';
-import MapBoxMarker from './MapBoxMarker';
-import MapBoxPath from './MapBoxPath';
-import MapBoxPopup from './MapBoxPopup';
+import { useDroneContext } from '../../context/DronesContext';
+import DronesList from './DronesList/DronesList';
+import MapBoxCounter from './MapBoxCounter/MapBoxCounter';
+import MapBoxMarker from './MapBoxMarker/MapBoxMarker';
+import MapBoxPath from './MapBoxPath/MapBoxPath';
+import MapBoxPopup from './MapBoxPopup/MapBoxPopup';
 
 const MapBox = () => {
   const {
