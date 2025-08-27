@@ -4,7 +4,6 @@ const MapBoxPath = ({ map, registration, feature, pathNum }: { map: any, registr
   const isGreen = registration.split('-')[1][0] === 'B';
 
   useEffect(() => {
-    console.log('patht feature', feature);
     if (!map.getSource(registration)) {
       map.addSource(registration, {
         type: "geojson",
@@ -15,13 +14,12 @@ const MapBoxPath = ({ map, registration, feature, pathNum }: { map: any, registr
         type: "line",
         source: registration,
         paint: {
-          "line-color": isGreen ? 'green': 'red',
-          "line-width": 4,
-          "line-opacity": 0.8,
+          "line-color": isGreen ? 'green' : 'red',
+          "line-width": 2,
+          "line-opacity": 0.5,
         },
       });
     } else {
-      // Update path data
       map.getSource(registration).setData(feature);
     }
   }, [pathNum]);
